@@ -1,0 +1,174 @@
+@charset "utf-8";
+/**
+   * Description: CSS
+   * Version: 1.0.0
+   * Last update: 2017/08/20
+   * Author: Duc PM <minhducpham.it@gmail.com> - ducpm.com
+   *
+    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ] Title
+    Example : You want Import Files => Title is Import Files, or Fonts => Title is Fonts
+
+   * Summary:
+   *
+   *  Import Files
+   *    - CSS
+   *  Layout Style
+   *  Commom
+   *    - Block   
+   *    - Wrapper
+   *    - Breadcrumb
+   *    - Title Commom
+   *    - List Inline
+   *    - Form Control
+   *    - Select 2
+   *    - Button
+   *    - Table
+   *    - Sticky
+   *    - Button Reservation
+   *    - 
+   *  Header
+   *    - Header Top
+   *  Menu
+   *    - Box Link
+   *    - Box Album
+   *    - Box Info
+   *  Block Map
+   *  Block Access
+   *  Block Product
+   *  Block Noted
+   *  Block Payment
+   *  Block Nearby
+   *  Block Services
+   *  Block Check Info
+   *  Block Customer Info
+   *  Footer
+   *    - Widget Link
+   *    - Widget Social
+   *    - Widget Address
+   *  Gallary
+   *  Back To Top
+   *  Modal
+   *    - Modal Susscess
+   *    - Modal reCheck
+   *  Back To Top
+*/
+
+/* 0. Import Files
+  ========================================================================== */
+/*  Css */
+@import url(../lib/bootstrap/bootstrap.min.css);
+@import url(../lib/font-awesome/font-awesome.min.css);
+@import url(../lib/lightbox/css/lightbox.css);
+@import url(../lib/select2/css/select2.min.css);
+@import url(../lib/datetimepicker/build/css/bootstrap-datetimepicker.min.css);
+
+@import url('https://fonts.googleapis.com/css?family=Open%20Sans:300,400,400i,700,700i&amp;subset=vietnamese');
+
+/* Layout Style
+  ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+}
+a {
+  color: #666;
+  outline: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+a:hover,
+a:focus {
+  color: #ff3366;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+p { margin: 0; }
+select:focus, button:focus, input:focus { outline: none; }
+.btn.focus, .btn:focus, .btn:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  outline: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea, select, input[type="number"],
+input[type="tel"] {
+  width: 100%;
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+  font-weight: normal;
+}
+.clearfix { clear: both; }
+
+/* Commom
+  ========================================================================== */
+.block {
+  margin-bottom: 40px;
+  position: relative;
+  display: block;
+}
+/* Breadcrumb */
+.block-breadcrumb .breadcrumb {
+  background: transparent;
+  margin-bottom: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.block-breadcrumb .breadcrumb li a {
+  color: #333333;
+}
+.block-breadcrumb .breadcrumb li a:hover {
+  color: #9d4a24;
+}
+.block-breadcrumb .breadcrumb li.active {
+  color: #9d4a24;
+}
+.block-breadcrumb .breadcrumb>li+li:before {
+  padding: 0 10px;
+  color: #333333;
+  font-family: "FontAwesome";
+  content: "\f178";
+}
+
+/* Wrapper */
+
+
+
