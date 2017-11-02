@@ -564,16 +564,6 @@ div.wpcf7 .screen-reader-response {
 .wpcf7-form-control-wrap {
   position: relative;
 }
-.contactForm .inner input, .contactForm .inner textarea, .formBlog input, .formBlog textarea {
-  width: 100%;
-  padding: 10px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-.contactForm .inner input, .contactForm .inner textarea {
-  border: none;
-}
 .contactForm .inner textarea {
   height: 100px;
 }
@@ -1139,20 +1129,55 @@ div.wpcf7 .screen-reader-response {
 .contactForm .inner .form-control-wrap {
   position: relative;
 }
-.contactForm .inner input, .contactForm .inner textarea {
-  border: none;
-}
-.contactForm .inner input, .contactForm .inner textarea, .formBlog input, .formBlog textarea {
-  width: 100%;
-  padding: 10px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
 #contact .contactForm .inner .btn-contact {
   width: auto;
   background: #fbb74d;
   color: #fff;
   padding: 10px;
   font-weight: bold;
+}
+
+/* Back To Top
+  ========================================================================== */
+.td-scroll-up {
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #337ab7;
+  z-index: 1;
+  transform: translate3d(0, 70px, 0);
+  -webkit-transform: translate3d(0, 70px, 0);
+  -moz-transform: translate3d(0, 70px, 0);
+  -ms-transform: translate3d(0, 70px, 0);
+  -o-transform: translate3d(0, 70px, 0);
+  -webkit-transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+  -moz-transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+  -o-transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+  transition: transform 0.4s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+}
+.td-scroll-up-visible {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+.td-scroll-up i {
+  position: relative;
+  color: #fff;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  width: 40px;
+  top: 7px;
+}
+.td-scroll-up:hover {
+  color: #fff;
+  background: #008cba;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
