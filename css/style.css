@@ -502,7 +502,7 @@ img {
 /* rate */
 #rate {
   color: #fff;
-    background: url(../imgs/bg-comment.jpg) no-repeat 50% 50%!important;
+  background: url(../imgs/bg-comment.jpg) no-repeat 50% 50%!important;
   background-size: cover;
 }
 .carousel-inner {
@@ -671,7 +671,10 @@ div.wpcf7 .screen-reader-response {
 }
 #hdPage .text-center {
   position: absolute;
-  top: 50px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
   right: 0;
   left: 0;
 }
@@ -951,22 +954,41 @@ div.wpcf7 .screen-reader-response {
   margin-bottom: 60px;
 }
 .blogList h2, .blogDetail h2 {
-  margin: 30px 0 15px 0;
-  font-weight: bold;
+  margin: 15px 0 15px 0;
+  font-weight: 400;
+  font-size: inherit;
 }
 .blogList h2 a {
   color: #333;
+  font-size: 21px;
+  line-height: 25px;
 }
 .blogList .meta, .blogDetail .meta, .newsOther .meta {
   border-bottom: 1px solid #eee;
   padding-bottom: 10px;
-  margin-bottom: 15px;
-  font-size: 90%;
   color: #666;
+  font-size: 11px;
+  margin-bottom: 7px;
+  line-height: 1;
+  min-height: 17px;
 }
 .meta {
   font-size: 90%;
   color: #666;
+}
+.blogList .des {
+  font-size: 14px;
+  color: #777;
+  margin-top: 9px;
+}
+
+.blogDetail img {
+  margin: 0 auto;
+}
+.blogDetail .caption-text {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
 }
 
 #filter {

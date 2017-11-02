@@ -58,4 +58,8 @@
 	#stepVisa .col-lg-3 > img {
 		margin: 0 auto;
 	}
+	#hdPage h2 {
+	  margin: 0;
+	  font-size: 30px;
+	}
 }
