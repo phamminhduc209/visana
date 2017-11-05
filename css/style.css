@@ -1136,6 +1136,13 @@ div.wpcf7 .screen-reader-response {
   padding: 10px;
   font-weight: bold;
 }
+#contact .contactForm p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+#contact .contactForm input.form-control {
+  height: 44px;
+}
 
 /* Back To Top
   ========================================================================== */
