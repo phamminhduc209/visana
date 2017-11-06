@@ -1061,9 +1061,11 @@ div.wpcf7 .screen-reader-response {
 }
 .nav-service li a {
   color: #fff;
+  text-align: center;
 }
 .nav-service li.active a {
   background: #fbb74d;
+  color: #fff;
 }
 .nav-service li {
   list-style: none;
@@ -1071,6 +1073,7 @@ div.wpcf7 .screen-reader-response {
 }
 .nav-service li a:hover {
   background: #006f93;
+  color: #fff;
 }
 
 .brief {
