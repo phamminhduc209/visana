@@ -573,6 +573,7 @@ img {
 .contactForm .inner div.content {
   background: #fff;
   padding: 0 15px;
+  border: 1px solid #ccc;
 }
 div.wpcf7 .screen-reader-response {
   position: absolute;
