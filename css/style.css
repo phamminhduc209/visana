@@ -570,6 +570,10 @@ img {
 .contactForm .inner div {
   margin-bottom: 6px;
 }
+.contactForm .inner div.content {
+  background: #fff;
+  padding: 0 15px;
+}
 div.wpcf7 .screen-reader-response {
   position: absolute;
   overflow: hidden;
