@@ -152,6 +152,13 @@
 	  text-align: center;
 	  border: 1px solid #ddd; */
 	}
+	.contactForm .inner div.content .radio-inline {
+		display: block;
+	}
+	.contactForm .inner div.content  .radio-inline+.radio-inline {
+		margin-top: 0;
+		margin-left: 0;
+	}
 }
 
 

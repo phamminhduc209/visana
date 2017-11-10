@@ -1107,6 +1107,34 @@ div.wpcf7 .screen-reader-response {
   margin-bottom: 60px;
 }
 
+#guide ul, #guide li {
+  list-style-type: none;
+}
+#guide li {
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 5px;
+}
+#guide li:last-child {
+  margin-bottom: 0;
+}
+#guide li:before {
+  content: "\f072";
+  font-family: "FontAwesome";
+  color: #008cba;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#guide li:hover:before {
+  color: #006f93;
+  transition: 0.5s all;
+}
+#guide li:hover a {
+  color: #006f93;
+  transition: 0.5s all;
+}
 
 .su-table table {
   width: 100% !important;
